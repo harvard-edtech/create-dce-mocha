@@ -43,6 +43,11 @@ copyTo(
 );
 console.log('/test/.eslintrc.json file create\n');
 
+// Adding dependencies
+print.subtitle('Adding dependencies');
+exec('npm install --save-dev mocha');
+console.log('dependencies installed\n');
+
 print.title('Done!');
 
 console.log('\nWrite tests in the /test folder and use "npm test" to run them');
