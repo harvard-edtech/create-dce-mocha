@@ -1,14 +1,14 @@
 {
   "name": "create-dce-mocha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple initializer that adds Mocha-based testing to the current node project",
   "main": "index.js",
   "bin": {
-		"create-dce-mocha": "./init.js"
-	},
-	"scripts": {
-		"start": "node index.js"
-	},
+    "create-dce-mocha": "./init.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harvard-edtech/create-dce-mocha.git"
