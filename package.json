@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "A simple initializer that adds Mocha-based testing to the current node project",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": {
+		"create-dce-mocha": "./init.js"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harvard-edtech/create-dce-mocha.git"
