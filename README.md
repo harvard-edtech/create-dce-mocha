@@ -1,2 +1,9 @@
 # create-dce-mocha
-A
+
+This initializer is designed to add Harvard DCE Mocha testing support to the current project.
+
+The project must already be initialized (use `npm init` or `npm init caccl`) before adding eslint rules.
+
+## Initializing Mocha Testing
+
+Use `npm init dce-mocha`
