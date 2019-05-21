@@ -25,7 +25,7 @@ console.log('\nThis will just take a moment!\n');
 print.subtitle('Updating test script in package.json')
 const newPackageJSON = getPackageJSON();
 const scripts = newPackageJSON.scripts || {};
-scripts.test = 'mocha --exit --reporter spec';
+scripts.test = 'mocha --exit --recursive --reporter spec';
 newPackageJSON.scripts = scripts;
 writePackageJSON(newPackageJSON);
 console.log('package.json updated\n');
