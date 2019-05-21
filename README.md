@@ -6,4 +6,4 @@ The project must already be initialized (use `npm init` or `npm init caccl`) bef
 
 ## Initializing Mocha Testing
 
-Use `npm init dce-mocha`
+`npm init dce-mocha`
